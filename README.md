@@ -1,6 +1,6 @@
 # Pixel Art Generator
 
-[Pixel Art Generator](https://bluearcticfox.github.io/PAG-with-MC_ArtMap/)
+[Site Link](https://bluearcticfox.github.io/PAG-with-MC_ArtMap/)
 
 Pixel Art Generator is a web application that converts images into pixel art style. Users can upload images, select desired color palettes, and generate various styles of pixel art.
 
