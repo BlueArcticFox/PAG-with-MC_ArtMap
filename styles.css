@@ -124,3 +124,19 @@ img {
     min-width: 20px;
     text-align: center;
 }
+
+#backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    background-color: #c00;
+}
