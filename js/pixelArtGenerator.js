@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let kdTree = null; // K-D 트리 저장
 
     generateButton.addEventListener('click', () => {
+        // google Analytics 
+        gtag('event', 'click', {
+            'event_category': 'Button',
+            'event_label': 'Generate Pixel Art',
+        });
         isZoom = false;
         
         // Label에서 Canvas Size 가져오기
@@ -153,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.putImageData(regionData, 0, 0);
 
         // 32x32로 나누어 얇은 선을 그립니다.
-        drawGrid(ctx, pixelSize, pixelSize / 32, 0.1);
+        drawGrid(ctx, pixelSize, pixelSize / 32, 0.05);
     }
 
     function findNearestColor(kdTree, targetLab, labColors) {
